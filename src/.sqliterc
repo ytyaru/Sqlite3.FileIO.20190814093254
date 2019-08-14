@@ -1,0 +1,8 @@
+-- .load /home/pi/root/sys/env/tool/sqlite_ext/fts5_mecab.so
+-- 拡張子.soを渡すと以降のコマンドで「Error: file is not a database」となってしまう
+.load /home/pi/root/sys/env/tool/sqlite_ext/fts5_mecab
+.mode column
+.width 0
+.headers on
+.timer on
+.nullvalue NULL
